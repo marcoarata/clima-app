@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <meta name="title" content="Weather App" >
+    <meta name="description" content="Weather App!">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Elige una Ciudad"
+            spellcheck="false">
+            <button><img src="./assets/img/search.png" alt="search"></button>
+        </div>
+        <div class="error">
+            <p class="texterror">Intenta Denuevo</p>
+        </div>
+        <div class="weather">
+            <img src="./assets/img/rain.png" alt="rain" class="weather-icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="./assets/img/humidity.png" alt="humidity">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humedad</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./assets/img/wind.png" alt="wind">
+                    <div>
+                        <p class="wind">15 km/hr</p>
+                        <p>Velocidad del Viento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

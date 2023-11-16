@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(0,212,255,1) 100%);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 10px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.search button:focus {
+    background: #ebfffc;
+    outline:0;
+}
+
+.search button:active {
+    transform: scale(1.05,1.05);
+  }
+
+.search button img {
+    width: 16px;
+    padding-top: 4px;
+}
+
+.weather-icon {
+    width: 120px;
+    margin-top: 30px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.45);
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind {
+    font-size: 24px;
+    margin-top: -6px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    font-size: 14px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 32px;
+    display: none;
+}
+
+.texterror {
+    font-size: 18px;
+    text-shadow: none;
+    color: #222;
+}
